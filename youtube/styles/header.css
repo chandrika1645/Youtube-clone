@@ -1,0 +1,139 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    left:0;
+    right:0;
+    top:0;
+    border-bottom-width: 1px;
+    border-color:rgb(228, 228, 228);
+    border-style: solid;
+    z-index: 100;
+}
+.left-content{
+    display: flex;
+}
+.hamburger{
+    width: 26px;
+    margin-left: 24px;
+    margin-right: 28px;
+}
+.youtubeicon{
+    width: 100px;
+}
+.center-content{
+    flex:1;
+    margin-right:40px;
+    margin-left: 70px ;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.searchbar{
+    flex:1;
+    height: 37px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    font-size:13px;
+    border:1px;
+    border-style: solid;
+    border-color: rgb(195, 187, 187);
+    border-radius:2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width:0;
+}
+
+.searchbar::placeholder{
+    font-size: 17px;
+}
+.search-button{
+    width:70px;
+    height: 42px;
+    border:1px;
+    border-style: solid;
+    border-color: rgb(195, 187, 187);
+    border-radius: 2px;
+    margin-left: -1px;
+    background-color: rgb(245, 245, 245);
+}
+.search-icon{
+    width: 25px;
+}
+.search-button,
+.voice-button,
+.bell,
+.upload-box,
+.youtube{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+.search-button .tooltip,
+.voice-button .tooltip,
+.bell .tooltip,
+.upload-box .tooltip,
+.youtube .tooltip{
+    position:absolute;
+    background-color: rgb(120, 118, 118);
+    font-family: roboto,areil;
+    font-size: 13px;
+    color: white;
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius:2px;
+    bottom : -50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+    pointer-events: none;
+}
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-box:hover .tooltip,
+.youtube:hover .tooltip,
+.bell:hover .tooltip{
+    opacity:1;
+}
+.voice-button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+.voice-icon{
+    width: 25px;
+}
+.right-content{
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:30px;
+    flex-shrink:0;
+}
+.upload-icon{
+    height:27px;
+}
+.apps-icon{
+    height:27px;
+}
+.bell-icon{
+    height:27px;
+}
+.channel-icon{
+    height:34px;
+    border-radius: 15px;
+}
+.sidebar-icons{
+    background-color: black;
+}
