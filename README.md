@@ -14,7 +14,11 @@ A beautifully crafted YouTube Clone built using only HTML and CSS, faithfully re
 
 Here are some screenshots showcasing the design:
 
-> *(Make sure to place your screenshots inside the `screenshots/` folder in the project directory.)*
+<img src="https://raw.githubusercontent.com/chandrika1645/Youtube-clone/main/youtube/screenshots/home-page.png" width="900">
+
+<img src="https://raw.githubusercontent.com/chandrika1645/Youtube-clone/main/youtube/screenshots/home-page2.png" width="900">
+
+
 
 🛠️ **Technologies Used**
 
