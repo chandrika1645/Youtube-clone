@@ -1,6 +1,6 @@
 # YouTube Clone
 
-A beautifully crafted YouTube Clone built using only HTML and CSS, faithfully replicating the iconic design of YouTube. This project focuses on frontend development, demonstrating clean structuring and modern styling techniques to achieve a near-identical look and feel of the original platform.
+A YouTube Clone built using HTML and CSS, replicating the design of YouTube. This project focuses on frontend development, demonstrating clean structuring and modern styling techniques to achieve a near-identical look and feel of the original platform.
 
 🚀 **Features**
 
